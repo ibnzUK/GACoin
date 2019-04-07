@@ -36,7 +36,7 @@ contract Test is ERC20Interface{
     event Transfer(address indexed from, address indexed to, uint tokens);
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
     // ------------------------------------------------------------------------
-    // Constructor With 1 000 000 supply, All deployed tokens sent to Genesis wallet
+    // Constructor With 10 000 000 000 supply, All deployed tokens sent to Genesis wallet
     // ------------------------------------------------------------------------
     constructor() public{
         supply = 10000000000000000;
